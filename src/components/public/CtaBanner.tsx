@@ -27,19 +27,13 @@ export const CtaBanner: React.FC<CtaBannerProps> = ({ onJoinClick }) => {
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-4 mb-8">
-          <a
+          <ChamferButton
+            variant="primary"
             href="https://www.ieee.org/membership-catalog/productdetail/showProductDetailPage.html?product=MEME025"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block"
+            className="px-8 py-3.5 text-sm"
           >
-            <ChamferButton
-              variant="primary"
-              className="px-8 py-3.5 text-sm"
-            >
-              JOIN THE CHAPTER →
-            </ChamferButton>
-          </a>
+            JOIN THE CHAPTER →
+          </ChamferButton>
         </div>
 
         {/* Permanent Verified Social Links Section */}
