@@ -1,0 +1,6 @@
+{
+  "name": "IEEE Education Society SRMIST Chapter",
+  "description": "Official website and documentation repository for the IEEE Education Society Student Chapter at SRM Institute of Science and Technology (SRMIST), Kattankulathur.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
