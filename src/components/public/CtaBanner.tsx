@@ -15,7 +15,7 @@ export const CtaBanner: React.FC<CtaBannerProps> = ({ onJoinClick }) => {
       <div className="max-w-5xl mx-auto px-6 sm:px-10 relative z-10 text-center">
         <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#00184d] border border-[#F58220]/40 clip-button-chamfer mb-6">
           <span className="material-symbols-outlined text-sm text-[#F58220]">how_to_reg</span>
-          <span className="font-mono text-xs text-[#ffdcc6]">MEMBERSHIP & ENGAGEMENT</span>
+          <span className="font-mono text-xs text-[#ffdcc6]">MEMBERSHIP &amp; ENGAGEMENT</span>
         </div>
 
         <h2 className="font-poppins font-bold text-3xl sm:text-4xl lg:text-5xl text-white mb-4">
@@ -27,13 +27,19 @@ export const CtaBanner: React.FC<CtaBannerProps> = ({ onJoinClick }) => {
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-4 mb-8">
-          <ChamferButton
-            variant="primary"
-            onClick={onJoinClick}
-            className="px-8 py-3.5 text-sm"
+          <a
+            href="https://www.ieee.org/membership-catalog/productdetail/showProductDetailPage.html?product=MEME025"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block"
           >
-            JOIN THE CHAPTER →
-          </ChamferButton>
+            <ChamferButton
+              variant="primary"
+              className="px-8 py-3.5 text-sm"
+            >
+              JOIN THE CHAPTER →
+            </ChamferButton>
+          </a>
         </div>
 
         {/* Permanent Verified Social Links Section */}
